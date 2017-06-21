@@ -2,14 +2,18 @@
 This repo is an assignment to create a HTTP based web proxy server that handles requests from clients, pass them to	HTTP server and handle returning traffic from the	HTTP server back to clients. This is done as part of Network Systems course at CU boulder.
 
 ## Execution sequence(commands to be typed for compiling and running).
-* Server:
-Compiling:<br/> 
+* Server:<br/>
+Compiling: 
+	
 	cc -o p proxy_server.c<br/>
-Execution:<br/>
+Execution:
+	
 	./p <port number>
 
-* Client:
-Initiating telnet:  telnet localhost <port number><br/>
+* Client:<br/>
+Initiating telnet:  
+
+	telnet localhost <port number><br/>
 
 giving command:
 			
