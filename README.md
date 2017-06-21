@@ -3,17 +3,18 @@ This repo is an assignment to create a HTTP based web proxy server that handles 
 
 ## Execution sequence(commands to be typed for compiling and running).
 * Server:<br/>
-Compiling: 
+Compiling:<br/> 
 	
-	cc -o p proxy_server.c
+			cc -o p proxy_server.c
+
 Execution:
 	
-	./p <port number>
+			./p <port number>
 
 * Client:<br/>
 Initiating telnet:  
 
-	telnet localhost <port number>
+			telnet localhost <port number>
 
 giving command:
 			
