@@ -5,7 +5,7 @@ This repo is an assignment to create a HTTP based web proxy server that handles 
 * Server:<br/>
 Compiling: 
 	
-	cc -o p proxy_server.c<br/>
+	cc -o p proxy_server.c
 Execution:
 	
 	./p <port number>
@@ -13,7 +13,7 @@ Execution:
 * Client:<br/>
 Initiating telnet:  
 
-	telnet localhost <port number><br/>
+	telnet localhost <port number>
 
 giving command:
 			
